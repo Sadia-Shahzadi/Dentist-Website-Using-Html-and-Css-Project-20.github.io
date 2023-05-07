@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(20, 20, 187);
+}
+.navbar{
+    padding: 2% 5%;                    
+    display: flex;
+}
+.logo img{
+    width: 60%;
+    cursor: pointer;
+}
+.navbar ul{
+    text-align: right;
+    flex: 1;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 12px 24px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 18px;
+}
+#about, .navbar ul li a:hover{
+    color: rgb(194, 192, 192);
+}
+.navbar ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: .5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+    background-color: white;
+}
+.btn1{
+    padding: 12px 25px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+    font-size: 18px;
+    transition: .5s;
+}
+.btn1:hover{
+    background-color: white;
+    color: darkblue;
+}
+.head{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+.head h1{
+    font-size: 60px;
+}
+
+/* Committed Section  */
+.committed{
+    background-color: gainsboro;
+    height: 380vh;
+}
+.flex1{
+    margin: 90px 0;
+}
+.flex1 img{
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.flex1 h3{
+    font-size: 26px;
+    padding-top: 5%;
+    color: #00008b;
+}
+.flex1 h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.flex1 h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.flex1 p{
+    padding-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.values{
+    text-align: center;
+}
+.values h3{
+    font-size: 26px;
+    padding-top: 5%;
+    color: #00008b;
+}
+.values h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.one-side{
+    background-color: white;
+    margin: 0 50px;
+    padding: 20px 60px;
+    border: 2px solid darkblue;
+}
+.one-side:hover{
+    background-color: #00008b;
+    color: white;
+    transition: .5s;
+}
+.one-side h3{
+    font-size: 25px;
+    color: blue;
+    padding-bottom: 10px;
+}
+.one-side h1{
+    font-size: 30px;
+}
+.one-side p{
+    padding: 20px 0;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.btn3{
+    background-color: darkblue;
+    color: white;
+}
+.btn3:hover{
+    background-color: blue;
+    color: white;
+}
+.committed .btn{
+    margin-left: 33em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/* Testimonial Section  */
+.testimonial{
+    display: flex;
+    margin: 7% 0;
+    justify-content: center;
+}
+.t1{
+    border: 1px solid darkblue;
+    background-color: #fff;
+    padding: 20px 40px;
+    margin: 0 40px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.t1:hover{
+    background-color: #00008b;
+    color: white;
+}
+
+.t1 p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+.test1{
+    display: flex;
+}
+.test1 img{
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.test1 h1{
+    padding-top: 8px;
+    font-weight: bolder;
+}
+/* Box Section  */
+.box{
+    background-color: #00008b;
+    padding: 7px 40px;
+    color: white;
+}
+.flex{
+    display: flex;
+    padding-top: 40px;
+}
+.call{
+    padding: 15px 45px;
+    font-size: 15px;
+}
+
+/* Footer Section  */
+.footer{
+    display: flex;
+    padding-top: 5%;
+}
+.d1{
+    padding: 80px 30px;
+    margin-left: 40px;
+}
+.d1 img{
+    padding-top: 40px;
+}
+.d1 p{
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+.d1 .icons i{
+    padding: 0 5px;
+    font-size: 20px;
+    color: darkblue;
+}
+.d1 .icons i:hover{
+    color: blue;
+}
+.d1 h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: darkblue;
+}
+.d1 a{
+    display: flex;
+    line-height: 1.8;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.d1 a:hover{
+    color: blue;
+    transition: .5s;
+}
+
+.copyright{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: darkblue;
+    height: 80px;
+    padding: 40px 0;
+    border-top: 2px solid #fff;
+}
+.copyright h1{
+    font-size: 25px;
+    color: white;
+}
